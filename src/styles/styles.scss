@@ -7,8 +7,8 @@
 
 :root {
     --green: #0c443a;
-    --light-greeen: #25d1b2;
-    --fading-greeen: linear-gradient(90deg, (var(--green)), var(--light-greeen));
+    --light-green: #25d1b2;
+    --fading-green: linear-gradient(90deg, var(--green), var(--light-green));
 }
 
 * {
@@ -23,13 +23,13 @@
 }
 
 ::selection {
-    background: var(--light-greeen);
+    background: var(--light-green);
     color: #ffffff;
 }
 
 html {
     font-size: 62.5%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
 }
 
 header {
-    position: fixed;
+    position: relative; /* fixed */
     display: flex;
     top: 0;
     right: 0;
@@ -54,7 +54,7 @@ header {
         color: var(--green);
 
         span {
-            color: var(--light-greeen);
+            color: var(--light-green);
         }
     }
 
@@ -64,7 +64,7 @@ header {
         color: var(--green);
 
         &:hover {
-            color: var(--light-greeen);
+            color: var(--light-green);
         }
     }
 
@@ -113,6 +113,7 @@ header {
         transform-origin: top; 
         transform: scaleY(0);
         opacity: 0;
+        transition: .2s linear;
     }
 
     header input:checked ~ .navbar {

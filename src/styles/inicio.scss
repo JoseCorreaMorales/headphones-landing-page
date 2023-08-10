@@ -17,50 +17,51 @@ section {
     background-size: cover;
     background-position: center;
 
+
     img {
         width: 30vw;
         animation: float 3s linear infinite;
-
+    
         @keyframes float {
-
+    
             0%,
             100% {
                 transform: translateY(0rem);
             }
-
+    
             50% {
                 transform: translateY(-3.5rem);
             }
         }
     }
 
-
     .content {
-        
+    
         h3 {
             font-size: 5.5rem;
             color: #333;
             text-transform: uppercase;
-
+    
             span {
                 color: var(--light-green);
                 text-transform: uppercase;
             }
         }
-
+    
         p {
             font-size: 1.7rem;
             color: #666;
             padding: 1rem 0;
-
+    
         }
-
-
-
-        
-
     }
 }
+
+    
+
+
+
+
 
 .btn {
     display: inline-block;

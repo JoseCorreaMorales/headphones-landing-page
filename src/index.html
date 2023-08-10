@@ -5,21 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphones Web Page</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <script src="js/config.js"></script>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/inicio.css">
-    <link rel="stylesheet" href="styles/detalles.css">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/inicio.css" rel="stylesheet">
+    <link href="styles/detalles.css" rel="stylesheet">
+    <link href="styles/acercade.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <a href="" class="logo">
+        <a class="logo" href>
             <span>AUDIO</span>yack
         </a>
 
-        <input type="checkbox" value="" name="menu-bar" id="menu-bar">
-        <label for="menu-bar" class="fa fa-bars"></label>
+        <input id="menu-bar" name="menu-bar" type="checkbox" value>
+        <label class="fa fa-bars" for="menu-bar"></label>
 
         <nav class="navbar">
             <a href="#inicio">inicio</a>
@@ -31,58 +32,81 @@
         </nav>
     </header>
 
-    <section class="inicio" id="inicio">
+    <section id="inicio" class="inicio">
         <div class="content">
             <h3>MOSTER ABC <span>audiculares</span></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consectetur dicta neque aspernatur natus
                 eius, quas earum maiores officia ex. Perspiciatis in minus eos quae ipsa, architecto veniam nesciunt
                 aliquam.</p>
-            <a href="" class="btn">Más detalles</a>
+            <a class="btn" href>Más detalles</a>
         </div>
 
-        <div class="image">
-            <img src="assets/images/audifono.svg" alt="Audifonos" title="Audifonos">
+        <div>
+            <img src="assets/images/audifono.svg" title="Audifonos" alt="Audifonos">
         </div>
     </section>
 
 
-    <section class="detalles" id="detalles">
+    <section id="detalles" class="detalles">
         <h1 class="heading">Funciones</h1>
         <div class="box-container">
 
             <div class="box">
-                <img src="assets/images/playlist.svg" alt="Escucha el futuro con claridad."
-                    title="Escucha el futuro con claridad.">
+                <img src="assets/images/playlist.svg" title="Escucha el futuro con claridad." alt="Escucha el futuro con claridad.">
                 <h3>Escucha el futuro con claridad.</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt repellendus amet odit nobis itaque
                     non repellat veniam dignissimos pariatur, enim rerum est impedit reiciendis labore cupiditate
                     inventore id, sit nisi.</p>
-                <a href="" class="btn">Ver más</a>
+                <a class="btn" href>Ver más</a>
             </div>
 
 
             <div class="box">
-                <img src="assets/images/listening.svg" alt="Sonido excepcional, estilo incomparable"
-                    title="Sonido excepcional, estilo incomparable.">
+                <img src="assets/images/listening.svg" title="Sonido excepcional, estilo incomparable." alt="Sonido excepcional, estilo incomparable">
                 <h3>Sonido excepcional, estilo incomparable.</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt repellendus amet odit nobis itaque
                     non repellat veniam dignissimos pariatur, enim rerum est impedit reiciendis labore cupiditate
                     inventore id, sit nisi.</p>
-                <a href="" class="btn">Ver más</a>
+                <a class="btn" href>Ver más</a>
             </div>
 
             <div class="box">
-                <img src="assets/images/musicc.svg" alt="Sumérgete en el sonido de hoy"
-                    title="Sumérgete en el sonido de hoy." width="220px">
+                <img src="assets/images/musicc.svg" title="Sumérgete en el sonido de hoy." alt="Sumérgete en el sonido de hoy" width="220px">
                 <h3>Sumérgete en el sonido de hoy.</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt repellendus amet odit nobis itaque
                     non repellat veniam dignissimos pariatur, enim rerum est impedit reiciendis labore cupiditate
                     inventore id, sit nisi.</p>
-                <a href="" class="btn">Ver más</a>
+                <a class="btn" href>Ver más</a>
+            </div>
+    </div></section>
+
+
+    <section id="acerca de" class="acerca-de">
+        <h1 class="heading">Acerca de</h1>
+
+        <div class="column">
+            <div class="image">
+                <img src="assets/images/auriculares_2.svg">
+            </div> <!-- inicio -->
+            <div class="content">
+                <h3>Calidad de sonido</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, laborum, libero minus labore numquam molestias, quis sed omnis atque unde quos nostrum ullam velit laudantium? Ut aliquid corporis libero pariatur.</p>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugit vitae, labore vel eligendi consequuntur delectus fugiat, sequi, eum ducimus architecto consectetur illum ea itaque unde officia alias ad libero.
+                Harum, necessitatibus molestias sit culpa obcaecati minus dolor esse perspiciatis explicabo laudantium modi iste ab voluptates eveniet quis, incidunt ipsum neque ipsam? Quae architecto maxime doloremque totam sit porro nulla.</p>
+
+                <div class="buttons">
+                    <a href="#" class="btn"><i class="fa-brands fa-google-play fa-bounce"></i> Google Play</a>
+                    <a href="#" class="btn"><i class="fa-brands fa-apple fa-bounce"></i> Apple Store</a>
+                </div>
+
             </div>
 
 
+        </div>
     </section>
+
+
 
 </body>
 

@@ -1,0 +1,81 @@
+@import url("styles.scss");
+
+.acerca-de {
+    background: url("../assets/images/fondo_2.svg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 3rem;
+
+
+    .column {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .image {width: 30vw;}
+        .image //{
+           
+            img {
+                width: 100%;
+                height: auto;
+                flex: 1 1 3rem;
+                &:hover {
+                    animation: float 3s linear infinite;
+                }
+
+                @keyframes float {
+
+                    0%,
+                    100% {
+                        transform: translateY(0rem);
+                    }
+
+                    50% {
+                        transform: translateY(-3.5rem);
+                    }
+                }
+            }
+        //}
+
+        .content {
+            flex: 1 1 30rem;
+            margin-left: 3.5rem;
+
+            h3 {
+                font-size: 3rem;
+                color: #333;
+                margin: 1.5rem 0;
+            }
+
+            p {
+                font-size: 1.5rem;
+                color: #666;
+                padding: 1rem 0;
+            }
+            .buttons {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+
+    .buttons { 
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .buttons { 
+        width: 100%;
+    }
+}

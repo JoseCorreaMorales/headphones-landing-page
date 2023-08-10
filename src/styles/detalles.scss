@@ -1,16 +1,13 @@
 @import url("styles.scss");
 
-.detalles {
-
-    .heading {
-        text-align: center;
-        background: var(--green);
-        color: transparent transparent transparent;
-        -webkit-background-clip: text;
-        font-size: 3.5rem;
-        text-transform: uppercase;
-        padding: 1rem;
-    }
+.heading {
+    text-align: center;
+    background: var(--green);
+    color: transparent transparent transparent;
+    -webkit-background-clip: text;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
 }
 
 
@@ -37,7 +34,7 @@
 
     img {
         width: 250px;
-        height: 180px;
+        height: 15rem;
         text-align: center;
     }
 

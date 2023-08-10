@@ -57,23 +57,25 @@ section {
 
 
 
-        .btn {
-            display: inline-block;
-            margin-top: 2rem;
-            padding: .8rem 3rem;
-            border-radius: 5rem;
-            background: var(--fading-green);
-            font-size: 1.7rem;
-            color: #fff;
-            cursor: pointer;
-            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-            transition: ease-in-out 3s linear;
+        
 
-            &:hover {
-                transform: scale(1.1);
-            }
-        }
+    }
+}
 
+.btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: .8rem 3rem;
+    border-radius: 5rem;
+    background: var(--fading-green);
+    font-size: 1.7rem;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+    transition: ease-in-out 3s linear;
+
+    &:hover {
+        transform: scale(1.1);
     }
 }
 

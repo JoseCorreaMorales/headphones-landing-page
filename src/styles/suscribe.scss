@@ -1,0 +1,63 @@
+.suscribe {
+    text-align: center;
+    padding: 5rem 1rem;
+    background: linear-gradient(90deg, #0c443a, #25d1b2) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__container {
+        width: 70vw;
+        margin: 2rem auto;
+
+        @media (max-width: 1000px) {
+            width: 80vw;
+        }
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+
+    p {
+        color: whitesmoke;
+        font-size: 1.6rem;
+        margin: 2rem auto;
+    }
+
+    form {
+        display: flex;
+        max-width: 70rem;
+        border: .2rem solid whitesmoke;
+        padding: .5rem;
+        border-radius: 5rem;
+        margin: 2rem auto;
+        height: 5.5rem;
+
+        input[type="email"] {
+            padding: 0 2rem;
+            font-size: 1.7rem;
+            background: none;
+            width: 100%;
+            color: #fff;
+            text-transform: none;
+        }
+
+        input[type="email"]::placeholder {
+            color: whitesmoke;
+        }
+
+        input[type="submit"] {
+            background: #fff;
+            width: 20rem;
+            font-size: 1.7rem;
+            border-radius: 5rem;
+            cursor: pointer;
+
+            &:hover {
+                color: #25d1b2;
+            }
+        }
+    }
+}

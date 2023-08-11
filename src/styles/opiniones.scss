@@ -2,7 +2,10 @@
 
 
     &__box-container {
-
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
 
     }
 
@@ -14,12 +17,48 @@
         position: relative;
         border: .1rem solid rgba(0 0 0 / .2);
         box-shadow: 0 .5rem 1rem rgba(0 0 0 / .1);
+        flex: 1 1 30rem;
+        border-radius: .5rem;
+
+        .fa-gavel {
+            position: absolute;
+            top: 1rem;
+            right: 2rem;
+            font-size: 3rem;
+            color: var(--light-green);
+            opacity: .7;
+        }
     }
 
     .user {
-        img {
-            width: 100%;
+        margin: 0 auto;
+        
 
+        img {
+            border-radius: 50%;
+            height: 10rem;
+            width: 10rem;
+            object-fit: cover;
+
+        }
+        h3 {
+            color: var(--green);
+            font-size: 2rem;
+
+        }
+
+        &__stars i {
+            color: var(--green);
+            font-size: 1.5rem;
+            padding: 1rem 0;
+
+
+        }
+
+        &__comentarios {
+            color: #333;
+            font-size: 1.4rem;
+            padding: 1rem;
         }
     }
 }

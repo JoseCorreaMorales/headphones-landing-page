@@ -14,6 +14,7 @@
     <link href="styles/suscribe.css" rel="stylesheet">
     <link href="styles/opiniones.css" rel="stylesheet">
     <link href="styles/precios.css" rel="stylesheet">
+    <link href="styles/contactanos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,7 +45,7 @@
             <a class="btn" href>Más detalles</a>
         </div>
 
-        <div>
+        <div class="floating-img">
             <img src="assets/images/audifono.svg" title="Audifonos" alt="Audifonos">
         </div>
     </section>
@@ -268,6 +269,39 @@
         </div>
     </section>
 
+        <section class="contatanos" id="contactos">
+            <div class="contatanos__img">
+                <img src="./assets/images/contact_audio_player_img.svg" alt="Imagen Reproducción de música" title="Imagen Reproducción de música">
+            </div>
+
+            <form action="">
+            <h1 class="heading">Conctactos</h1>
+            <div class="input-box">
+                <input type="text" name="name" id="name" required>
+                <label for="name">Nombre</label>
+            </div>
+
+            <div class="input-box">
+                <input type="email" name="email" id="email" required>
+                <label for="email">Email</label>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" name="number" id="number" required>
+                <label for="number">number</label>
+            </div>
+
+
+            <div class="input-box">
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+                <label for="number">Mensaje</label>
+            </div>
+
+            <input type="submit" value="Enviar" class="btn">
+            </form>
+
+
+        </section>    
 
     <script src="./js/main.js"></script>
 </body>

@@ -75,8 +75,9 @@ To run the project, run the following command in a terminal:
 
 ## Resourses
 
-* [SVG ](https://undraw.co/)
+* [SVG source ](https://undraw.co/)
 * [font awesome ](https://fontawesome.com/)
+* [SVG source ](https://www.manypixels.co/gallery)
 
 The project will run on port 3000. You can access it at http://localhost:3000/
 

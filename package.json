@@ -2,8 +2,9 @@
   "name": "headphones-landing-page",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  
   "scripts": {
+    "start": "parcel serve src/index.html",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"

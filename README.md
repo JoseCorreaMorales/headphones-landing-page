@@ -33,6 +33,7 @@ To run the project, you will need the following dependencies:
   <img src="https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js Icon" />
   <img src="https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git Icon" />
   <img src="https://img.shields.io/badge/-Normalize-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="Normalize Icon" />
+  <img src="https://img.shields.io/badge/-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Icon" />
    <img src="https://img.shields.io/badge/-SVG-FFB13B?style=for-the-badge&logo=svg&logoColor=white" alt="SVG Icon" />
 </p>
 

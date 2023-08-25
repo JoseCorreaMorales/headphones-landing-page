@@ -1,4 +1,4 @@
-# headphones-landing-page
+# 🎧 headphones-landing-page 🎧
  ## Introduction
 
 This repo contains the code for a landing page for a new headphones product. The landing page is designed to generate leads and sales.
